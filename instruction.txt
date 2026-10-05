@@ -1,0 +1,127 @@
+Instructions
+To complete the assignment successfully, please verify that you completed all the
+following project-based tasks and that you tested the console application for correctness.
+
+Here are your tasks:
+
+Task 1: The Object blueprint classes
+Create the following well-structured classes:
+
+- Pet class with the following attributes:
+
+		- Unique Pet ID
+
+		- Name
+
+		- Species/Breed
+
+		- Age
+
+		- Owner name
+
+		- Contact Info
+
+		- Registration date
+
+		- List of appointments, using an appropriate collection object.
+
+
+
+- Appointment class with the following attributes:
+
+	   - Appointment type (such as vet visit, vaccination, grooming)
+
+	   - Date and time
+
+	   - Notes (optional)
+
+
+
+
+
+Task 2: The main application
+
+
+Create the PetCare Scheduler application that will:
+
+- Load Data - Load any existing data from the files when the application starts up. Ensure this method is private.
+
+- Take and Process user input - take user input and process it to perform one of the allowed operations:
+
+	- Register a pet
+
+	- Schedule an appointment
+
+	- Store the details in a file
+
+	- Display details of pets and/or appointments
+
+	- Generate reports
+
+
+
+Task 3: Add the methods to handle user input
+Register Pet - Create new pet profiles, including
+
+		- unique Pet ID. Handle ID duplication.
+
+		- name
+
+		- species/breed
+
+		- age. Handle any errors that invalid inputs can cause.
+
+		- owner name/contact
+
+		- registration date. Use the Date & Time packages to record pet registration dates. Handle any errors that invalid inputs can cause.
+
+		- Add the pet to the collection
+
+
+
+Schedule Appointment - Allow users to schedule appointments for a pet, including:
+
+		- Appointment type (such as vet visit, vaccination, grooming)
+
+		- Date and time of appointment. Handle any errors that invalid inputs can cause.
+
+		- Notes if needed
+
+		- Add the appointment to the collection for that pet.
+
+
+
+Display Records - Show the following information based on the option chosen:
+
+	- All registered pets
+
+	- All appointments for a specific pet
+
+	- Upcoming appointments for all pets
+
+	- Past appointment history for each pet
+
+
+
+Store data - Save pet profiles and appointment records to files using Java File I/O so data persists when the program closes. Handle any errors that can be caused during File I/O.
+
+
+
+Generate reports - Produce simple reports including:
+
+	- Pets with upcoming appointments in the next week
+
+	- Pets overdue for a vet visit (For example: No vet visit in the last 6 months)
+
+
+
+Task 4: Compile and run
+Compile all the files you have created and run the application, and verify that the application functions as per the requirements.
+
+Grading Criteria
+This assignment consists of 15 questions. The total number of points available for this assignment is 50. Your score for this assignment is your grade for the course, so read the questions carefully.
+
+
+
+For many of the questions, you will be asked to provide specific parts of your code. If your answer matches the expected output, you will be awarded points. Please note that the tool is configured to ensure that the logic is implemented and doesn't mandate variable names or method names. You will also answer several multiple-choice or short-answer questions.
+
