@@ -8,6 +8,9 @@ import java.util.List;
  * Represents a pet registered with the Pet Care Scheduler.
  */
 public class Pet implements Serializable {
+    // Ensures compatibility when serializing/deserializing saved pet data.
+    private static final long serialVersionUID = 1L;
+
     private String petId;
     private String name;
     private String species;
@@ -15,7 +18,8 @@ public class Pet implements Serializable {
     private String ownerName;
     private String contactInfo;
     private LocalDate registrationDate;
-    private List<Appointment> appointments;
+    // Stores the pet's scheduled appointments in insertion order.
+    private ArrayList<Appointment> appointments;
 
     public Pet(String petId, String name, String species, int age, String ownerName, String contactInfo) {
         this.petId = petId;

@@ -7,6 +7,8 @@ import java.time.format.DateTimeFormatter;
  * Represents a single appointment for a pet.
  */
 public class Appointment implements Serializable, Comparable<Appointment> {
+    private static final long serialVersionUID = 1L;
+
     public static final String[] VALID_TYPES = {"Vet Visit", "Vaccination", "Grooming"};
     public static final DateTimeFormatter FORMAT = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
 
